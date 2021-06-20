@@ -1,7 +1,7 @@
 import React from 'react'
 import getWeb3 from './getWeb3'
 import getContract from './getContract'
-import contractDefinition from './contracts/SimpleStorage.json'
+import contractDefinition from '../../build/contracts/SimpleStorage.json'
 
 export default class Web3Container extends React.Component {
   state = { web3: null, accounts: null, contract: null };
@@ -12,6 +12,7 @@ export default class Web3Container extends React.Component {
       const accounts = await web3.eth.getAccounts()
       const contract = await getContract(web3, contractDefinition)
       this.setState({ web3, accounts, contract })
+      console.log('Web 3 connected to the web page')
     } catch (error) {
       alert(
         `Failed to load web3, accounts, or contract. Check console for details.`
