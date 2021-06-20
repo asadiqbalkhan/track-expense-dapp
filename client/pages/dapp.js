@@ -3,7 +3,6 @@ import Link from 'next/link'
 import Web3Container from '../lib/Web3Container'
 
 
-
 class Dapp extends React.Component {
   state = {
     balance: undefined,
