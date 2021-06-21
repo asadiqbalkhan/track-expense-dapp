@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+![Untitled Diagram](https://user-images.githubusercontent.com/22265347/122699802-8763ec00-d263-11eb-88b7-c4801786b14f.jpeg)
+
+
+# Getting Started with Create React DApp
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Truffle] (https://www.trufflesuite.com/)
+
+## Truffle Setup & Configuration 
+
+Compile the smart contract 
+
+### `truffle compile`
+
+Deploy & Migrate 
+
+### `truffle migrate`
+
+Test the smart contract on terminal
+
+### `truffle develop` 
 
 ## Available Scripts
 
