@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const BenefitsContainer = styled.div`
-    height: 800px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +43,7 @@ export const BenefitsCard = styled.div`
     justify-content: flex-end;
     align-items: center;
     border-radius: 10px;
-    max-height: 440px;
+    max-height: 400px;
     padding: 30px;
     box-shadow:0 1px 3px rgba(0,0,0,0.2);
     transition:all 0.2s ease-in-out;
@@ -56,8 +56,8 @@ export const BenefitsCard = styled.div`
 `
 
 export const BenefitsIcon = styled.img`
-    height:240px;
-    width: 240px;
+    height:200px;
+    width: 200px;
     margin-bottom: 10px;
 `
 

@@ -32,15 +32,15 @@ const Navbar = () => {
                     <NavMenu>
                         <NavItem>
                             <NavLinks to='about'
-                            smooth={true} duration={500} spy={true} exact='true' offset={-79} >about</NavLinks>
+                            smooth={true} duration={500} spy={true} exact='true' offset={-80} >about</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='track-expenses'
-                            smooth={true} duration={500} spy={true} exact='true' offset={-79} >track expenses</NavLinks>
+                            smooth={true} duration={500} spy={true} exact='true' offset={-80} >track expenses</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to='benefits'
-                            smooth={true} duration={500} spy={true} exact='true' offset={-77} >benefits</NavLinks>
+                            smooth={true} duration={500} spy={true} exact='true' offset={-80} >benefits</NavLinks>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
