@@ -1,4 +1,7 @@
-export const TRACKER_ADDRESS = "0x573e32310385B9c3Ef4D74f772A907caa0EfF286";
+// local host contract address
+//export const TRACKER_ADDRESS = "0x573e32310385B9c3Ef4D74f772A907caa0EfF286";
+// ropsten contract address 
+export const TRACKER_ADDRESS = "0x934DD5c7ef01259e425C5a0a797AeA9b470A7F4c";
 
 export const TRACKER_ABI = [
   {
