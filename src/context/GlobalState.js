@@ -66,6 +66,7 @@ export const GlobalProvider = ({ children }) => {
         const account = await web3.eth.getAccounts();
         console.log("Transaction Pending");
         const receipt = await contract.methods.addTransaction(transaction.transactionDetails, transaction.amount).send({from: account[0]});
+        console.log(receipt);
         addTransaction(transaction);
         console.log("Transaction Completed")
     }
